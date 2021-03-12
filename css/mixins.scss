@@ -1,0 +1,14 @@
+@mixin reset {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin flex-centered {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin wrapper {
+    width: 100%;
+    max-width: 1400px;
+}

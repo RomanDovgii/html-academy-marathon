@@ -1,0 +1,65 @@
+@import "./fonts.scss";
+@import "./general.scss";
+@import "./mixins.scss";
+@import "./variables.scss";
+
+.body {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $cream;
+}
+
+// main positions
+
+.header {
+    background-image: url("../img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__section {
+        @include flex-centered;
+    }
+
+    &__wrapper {
+        @include wrapper;
+    }
+}
+
+.about-us,
+.results,
+.examples,
+.team,
+.workflow,
+.reviews,
+.call-back {
+    @include flex-centered;
+
+    &__wrapper {
+        @include wrapper;
+    }
+}
+
+.footer {
+    @include flex-centered;
+
+    &__wrapper {
+        @include wrapper;
+    }
+}
+
+// backgrounds
+
+.results {
+    background-color: $choco;
+}
+
+.workflow,
+.team {
+    background-color: $dark-cream;
+}
+
+.call-back {
+    background-color: $choco;
+}
+
+// main work
+
