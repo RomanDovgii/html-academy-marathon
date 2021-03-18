@@ -56,10 +56,10 @@
         </section>
 
         <section class="header__section">
-            <div class="header__wrapper">
+            <div class="header__wrapper header__wrapper--promo">
                 <h2 class="visually-hidden">Сделаем вашу квартиру уютнее</h2>
                 <p class="header__heading">Поможем сделать вашу квартиру уютнее</p>
-                <p class="header__text">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
+                <p class="header__text">Подбираем текстиль, мебель и аксессуары под&nbsp;ваш интерьер, находим магазины и&nbsp;помогаем организовать доставку</p>
                 <a href="#" class="header__call-back">Оставить заявку</a>
             </div>
         </section>
@@ -75,7 +75,7 @@
                 <div class="about-us__content">
                     <img src="./img/about-us-content.jpg" width="445" height="465" alt="Прекрасный интерьер, сделанный с нашей помощью" class="about-us__img">
 
-                    <div class="about-us__text-content">
+                    <div class="about-us__description">
                         <p class="about-us__text">
                             Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.
                         </p>
@@ -144,7 +144,13 @@
                     </li>
                 </ul>
 
-                <a href="#" class="examples__more">Смотреть ещё</a>
+                <a href="#" class="examples__more">
+                    Смотреть ещё
+                    <svg width="61" height="16" viewBox="0 0 61 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z"/>
+                    </svg>
+                        
+                </a>
             </div>
         </section>
 
@@ -213,6 +219,9 @@
                 <h2 class="reviews__heading">Отзывы</h2>
                 <div class="reviews__slider slider">
                     <button class="slider__previous">
+                        <svg width="61" height="16" viewBox="0 0 61 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z"/>
+                        </svg>
                         <span class="visually-hidden">Предыдущий слайд</span>
                     </button>
 
@@ -241,6 +250,9 @@
                     </div>
 
                     <button class="slider__next">
+                        <svg width="61" height="16" viewBox="0 0 61 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z"/>
+                        </svg>
                         <span class="visually-hidden">Следующий слайд</span>
                     </button>
                 </div>
@@ -249,7 +261,7 @@
 
         <section class="main__section call-back">
             <div class="call-back__wrapper">
-                <div class="call-back__text">
+                <div class="call-back__content">
                     <h2 class="call-back__heading">Оставить заявку</h2>
                     <p class="call-back__text">
                         Оставьте свои контакты. Менеджер перезвонит
@@ -257,8 +269,8 @@
                     </p>
 
                     <form class="call-back__form">
-                        <input type="text" class="call-back__input">
-                        <input type="text" class="call-back__input">
+                        <input type="text" class="call-back__input" placeholder="Ваше имя">
+                        <input type="text" class="call-back__input" placeholder="Введите телефон">
 
                         <button type="submit" class="call-back__submit">Оставить заявку</button>
                     </form>
